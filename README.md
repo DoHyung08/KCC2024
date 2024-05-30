@@ -20,7 +20,7 @@ pip install sumo-rl
 ```
 pip install -r requirements.txt
 ```
-라이브러리 버전이 맞지 않아 오류가 발생할 경우, requirements.txt 의 각 라이브러리 버전를 수정합니다.
+라이브러리 버전이 맞지 않아 설치오류가 발생할 경우, requirements.txt 의 각 라이브러리 버전를 수정합니다.
 
 
 ## 파일 구성 !!수정!!
@@ -104,10 +104,10 @@ $$
 
 <p align="center">
 <h3>기본환경 - 과속환경 비교</h3>
-<img src="기본-과속 비교.mp4" align="center" width="75%"/>
+<img src="de_ovs_compare.mp4" align="center" width="75%"/>
 </p>
 
 <p align="center">
 <h3>학습정도비교</h3>
-<img src="학습정도비교.mp4" align="center" width="75%"/>
+<img src="learning_compare" align="center" width="75%"/>
 </p>
