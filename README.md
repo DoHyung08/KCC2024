@@ -20,6 +20,8 @@ pip install sumo-rl
 ```
 pip install -r requirements.txt
 ```
+라이브러리 버전이 맞지 않아 오류가 발생할 경우, requirements.txt 의 각 라이브러리 버전를 수정합니다.
+
 
 ## 파일 구성 !!수정!!
 본 파일은 아래와 같이 구성되어 있습니다.
@@ -97,3 +99,15 @@ $$
 이 외의 교차로 모델에 대한 자세한 설명은 [SUMO 공식 사이트](https://sumo.dlr.de/docs/Definition_of_Vehicles%2C_Vehicle_Types%2C_and_Routes.html#junction_model_parameters)의 설명을 참고해 주세요.
 
 
+##실행영상
+
+
+<p align="center">
+<h3>기본환경 - 과속환경 비교</h3>
+<img src="기본-과속 비교.mp4" align="center" width="75%"/>
+</p>
+
+<p align="center">
+<h3>학습정도비교</h3>
+<img src="학습정도비교.mp4" align="center" width="75%"/>
+</p>
