@@ -23,11 +23,14 @@ pip install -r requirements.txt
 라이브러리 버전이 맞지 않아 설치오류가 발생할 경우, requirements.txt 의 각 라이브러리 버전를 수정합니다.
 
 
-## 파일 구성 !!수정!!
+## 파일 구성
 본 파일은 아래와 같이 구성되어 있습니다.
 
 ```
 .
+│
+├── figures
+│   └── actions.png
 ├── nets
 │   ├── flow_default.rou.xml
 │   ├── flow_tailgating.rou.xml
@@ -37,7 +40,8 @@ pip install -r requirements.txt
 ├── traffic_tail
 │   ├── environment.py
 │   └── trainer.py
-└── visualize.ipynb
+├── compare.ipynb
+└── plot_results.ipynb
 ```
 
 ## 환경 !!이하 수정필요!!
