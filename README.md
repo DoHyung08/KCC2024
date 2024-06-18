@@ -53,7 +53,7 @@ pip install -r requirements.txt
 
 `traffic_tail` 폴더의 environment.py는 구현한 환경을, trainer.py는 에이전트 학습 과정 구현이 담겨있습니다
 
-'compare.ipynb' ,  'test_env.ipynb"는 임시 테스트용 코드입니다.
+`compare.ipynb` ,  `test_env.ipynb`는 임시 테스트용 코드입니다.
 
 `plot_results.ipynb`는 train.ipynb에서 훈련한 과정이 담긴 데이터를 시각화하는 코드입니다.
 
