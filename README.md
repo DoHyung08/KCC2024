@@ -105,13 +105,13 @@ $r_{t} = D_{a_{t}} - D_{a_{t+1}}$
 
 ##실행영상
 
-
 <p align="center">
 <h3>기본환경 - 과속환경 비교</h3>
-<img src="de_ovs_compare.mp4" align="center" width="75%"/>
+<img src="https://github.com/DoHyung08/KCC2024/assets/73733984/39fc8ef8-1837-4285-a003-ac1ec3361879" align="center" width="75%"/>
 </p>
 
 <p align="center">
 <h3>학습정도비교</h3>
-<img src="learning_compare" align="center" width="75%"/>
+<img src="https://github.com/DoHyung08/KCC2024/assets/73733984/74708cc8-4f4f-4abc-99de-1b56f283b6d9" align="center" width="75%"/>
 </p>
+
