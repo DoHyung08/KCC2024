@@ -41,8 +41,24 @@ pip install -r requirements.txt
 │   ├── environment.py
 │   └── trainer.py
 ├── compare.ipynb
-└── plot_results.ipynb
+├── plot_results.ipynb
+├── test.ipynb
+├── test_env.ipynb
+└── train.ipynb
 ```
+
+실험이 진행되는 도로와 교통 환경은 `nets`폴더에 저장되어 있으며, 환경에 따른 교통 흐름에 차이를 구현하기 위해 `flow_default.rou.xml` `flow_tailgating.rou.xml` 두개의 파일이 존재합니다. (아래 내용 참고)
+
+`results` 폴더에는 에이전트가 훈련한 보상이 담긴 numpy 객체, 학습한 에이전트 객체가 담겨있습니다.
+
+`traffic_tail` 폴더의 environment.py는 구현한 환경을, trainer.py는 에이전트 학습 과정 구현이 담겨있습니다
+
+'compare.ipynb' ,  'test_env.ipynb"는 임시 테스트용 코드입니다.
+
+`plot_results.ipynb`는 train.ipynb에서 훈련한 과정이 담긴 데이터를 시각화하는 코드입니다.
+
+'test_env.ipynb'는 구현한 환경을 에이전트별, 환경별로 실행하는 코드로 논문의 [표1]데이터를 얻은 코드입니다.
+`tarin.ipynb`는 환경마다 에이전트를 학습시키는 실행 코드입니다.
 
 ## 환경 !!이하 수정필요!!
 환경은 [SUMO-RL](https://github.com/LucasAlegre/sumo-rl)의 `SumoEnvironment`를 상속받고 있으며, 아래는 공유하는 기본 틀에 대한 설명입니다.
