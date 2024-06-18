@@ -55,9 +55,9 @@ pip install -r requirements.txt
 
 `compare.ipynb` ,  `test_env.ipynb`는 임시 테스트용 코드입니다.
 
-`plot_results.ipynb`는 train.ipynb에서 훈련한 과정이 담긴 데이터를 시각화하는 코드입니다.
+`plot_results.ipynb`는 train.ipynb에서 훈련한 과정이 담긴 데이터를 시각화하는 코드입니다. 논문의 [그림 4]를 출력합니다.
 
-'test_env.ipynb'는 구현한 환경을 에이전트별, 환경별로 실행하는 코드로 논문의 [표1]데이터를 얻은 코드입니다.
+'test_env.ipynb'는 구현한 환경을 에이전트별, 환경별로 실행하는 코드로 논문의 [표 1]데이터를 얻은 코드입니다.
 `tarin.ipynb`는 환경마다 에이전트를 학습시키는 실행 코드입니다.
 
 ## 환경 !!이하 수정필요!!
