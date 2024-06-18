@@ -62,7 +62,7 @@ pip install -r requirements.txt
 
 `train.ipynb`는 환경마다 에이전트를 학습시키는 실행 코드입니다.
 
-## 환경 !!이하 수정필요!!
+## 환경
 환경은 [SUMO-RL](https://github.com/LucasAlegre/sumo-rl)의 `SumoEnvironment`를 상속받고 있으며, 아래는 공유하는 기본 틀에 대한 설명입니다.
 
 ### 상태(State)
