@@ -121,7 +121,9 @@ $r_{t} = D_{a_{t}} - D_{a_{t+1}}$
 이 외의 교차로 모델에 대한 자세한 설명은 [SUMO 공식 사이트](https://sumo.dlr.de/docs/Definition_of_Vehicles%2C_Vehicle_Types%2C_and_Routes.html#junction_model_parameters)의 설명을 참고해 주세요.
 
 
-##실행영상
+## 실행영상
+
+본 레포지토리 `de-ovs-cmp.mp4`, `learning_compare.mp4` 와 같은 gif입니다
 
 <p align="center">
 <h3>기본환경 - 과속환경 비교</h3>
